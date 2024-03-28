@@ -1,0 +1,30 @@
+{
+    "name": "@tcimpidis/module_federation_demo",
+    "private":"true",
+    "version": "1.0.0",
+    "description": "Demo react module federation for typescript react app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Tcimpidis/module-federation-demo.git"
+    },
+    "keywords": [
+      "module federation demo"
+    ],
+    "author": "Jamin Tcimpidis",
+    "license": "MIT",
+    "bugs": { 
+      "url": "https://github.com/Tcimpidis/module-federation-demo/issues"
+    },
+    "homepage": "https://github.com/Tcimpidis/module-federation-demo#readme",
+    "workspaces": [
+      "packages/*"
+    ],
+    "devDependencies": {
+      "lerna": "^7.4.2"
+    },
+    "scripts": {
+      "start": "lerna run dev",
+      "build": "lerna run build",
+      "test": "lerna run test"
+    }
+  }
